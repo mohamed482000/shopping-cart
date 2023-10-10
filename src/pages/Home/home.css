@@ -154,12 +154,15 @@
   .second-home-section-content .closes-img {
     width: 270px;
     height: 300px;
+    margin-left: 0;
   }
   .second-home-section-content .closes-img img {
     width: 270px;
     height: 300px;
   }
-
+  .second-home-section-content .closes-info {
+    margin-left: -180px;
+  }
   .second-home-section-content .glasses-img img {
     width: 300px;
     height: 300px;
@@ -169,12 +172,12 @@
     width: 70%;
   }
   .second-home-section-content .shoes-img {
-    margin-left: 50px;
+    margin-left: 10px;
     width: 270px;
     height: 300px;
   }
   .second-home-section-content .shoes-info {
-    margin-left: -150px;
+    margin-left: -200px;
   }
   .second-home-section-content .shoes-img img {
     width: 270px;
