@@ -61,3 +61,8 @@
   height: 45px;
   width: 75px;
 }
+@media (max-width: 510px) {
+  .register-component form {
+    width: 90%;
+  }
+}
