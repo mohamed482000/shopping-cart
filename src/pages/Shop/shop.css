@@ -128,11 +128,10 @@
 }
 @media (max-width: 580px) {
   .shop-content .product-cart {
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-bottom: 60px;
-    border: 2px solid gray;
-    padding: 30px;
+    padding: 10px 0px;
   }
   .product-cart .product-top-icons {
     top: 70px;
