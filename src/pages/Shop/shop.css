@@ -1,0 +1,193 @@
+.shop-content {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 510px;
+}
+
+.shop-content .product-info {
+  padding-left: 20px;
+  position: relative;
+}
+.shop-content .product-cart {
+  position: relative;
+  margin-right: 55px;
+  width: 20%;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+.shop-content .add-to-cart-button {
+  position: absolute;
+  top: -2%;
+  left: 20px;
+  color: darkgreen;
+  border: 0;
+  background-color: inherit;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0.3;
+  transition: all 0.1s ease-in;
+  display: block;
+}
+.shop-content .product-cart:hover .add-to-cart-button {
+  visibility: visible;
+  opacity: 1;
+  top: 10%;
+}
+
+.shop-content .product-cart:hover .product-desc {
+  visibility: hidden;
+}
+.product-cart .product-top-icons,
+.product-cart .product-button-icon {
+  position: absolute;
+  right: -10px;
+  opacity: 0.2;
+  visibility: hidden;
+}
+.product-cart .product-top-icons {
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  transition: all 0.4s ease-in;
+}
+.product-cart .product-button-icon {
+  top: 215px;
+  color: red;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.product-cart:hover .product-top-icons,
+.product-cart:hover .product-button-icon {
+  opacity: 1;
+  visibility: visible;
+  right: 8px;
+}
+.product-cart .product-top-icons svg {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.product-cart .product-img {
+  padding: 0 40px;
+}
+.product-cart .product-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.shop-content .product-cart .product-desc {
+  height: 40px;
+  padding-right: 8px;
+  transition: all 0.1s ease-in;
+}
+.shop-content .product-cart h6 {
+  margin: 7px 0;
+}
+.shop-content .product-cart .product-sort {
+  margin-bottom: 4px;
+}
+.shop-content .product-cart .product-info svg {
+  color: darkorange;
+}
+.shop-content .product-cart .product-price {
+  margin: 5px 0;
+}
+.shop-content .product-cart .product-price span {
+  color: darkorange;
+  margin-left: 4px;
+}
+@media (max-width: 1100px) {
+  .shop-content .product-cart {
+    width: 20%;
+    margin-right: 45px;
+  }
+}
+@media (max-width: 1000px) {
+  .shop-content .product-cart {
+    width: 23%;
+    margin-right: 12px;
+  }
+}
+@media (max-width: 900px) {
+  .shop-content .product-cart {
+    width: 30%;
+    margin-right: 17px;
+  }
+}
+@media (max-width: 750px) {
+  .shop-content .product-cart {
+    width: 29%;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 680px) {
+  .shop-content .product-cart {
+    width: 44%;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 580px) {
+  .shop-content .product-cart {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+    border: 2px solid gray;
+    padding: 30px;
+  }
+  .product-cart .product-top-icons {
+    top: 70px;
+  }
+  .product-cart .product-button-icon {
+    top: 248px;
+  }
+}
+/* spiner from css spinner */
+.loader {
+  color: #e63334;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.3s infinite linear;
+  transform: translateZ(0);
+  display: block;
+  margin: 200px auto auto auto;
+}
+
+@keyframes mulShdSpin {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em,
+      0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em,
+      0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}

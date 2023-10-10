@@ -1,0 +1,49 @@
+.logIn-component {
+  background-color: #c1c0c1;
+  padding-top: 1px;
+}
+.logIn-component form {
+  width: 400px;
+  height: 500px;
+  margin: 100px auto 0;
+}
+.logIn-component form small {
+  font-size: 19px;
+  color: gray !important;
+}
+.logIn-component form label {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.logIn-component form .last-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.logIn-component form input {
+  color: gray;
+  font-weight: 500;
+  outline: 0;
+  border: 0;
+}
+.logIn-component form button:last-of-type {
+  margin-left: 30px;
+}
+.for-eye-icon {
+  position: relative;
+}
+.for-eye-icon svg {
+  position: absolute;
+  top: 48px;
+  right: 8px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.admin-email {
+  display: block;
+}
+.admin-pass {
+  display: block;
+  margin-top: 0;
+}

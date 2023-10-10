@@ -1,0 +1,77 @@
+nav.header {
+  background-color: #ecedef;
+}
+nav a.home-link,
+nav a.shop-link {
+  font-weight: 500;
+}
+nav a.log-in-icon {
+  font-size: 22px;
+  padding: 0;
+  color: #6464d6;
+}
+nav a.nav-link {
+  padding: 0;
+  font-size: 22px;
+}
+nav a.dropdown-toggle.nav-link::after {
+  display: none;
+}
+div.shop-Icon {
+  position: relative;
+}
+.navbar-nav .active {
+  position: relative;
+}
+nav #collapsible-nav-dropdown img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.navbar-nav button {
+  background-color: inherit;
+  border: 0;
+}
+.drop .dropdown-menu {
+  min-width: 80px;
+}
+
+@media (min-width: 990px) {
+  .navbar-nav .active::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 8px;
+    width: 45%;
+    height: 3px;
+    background-color: #cb5959;
+  }
+  nav .products-sum {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 3px;
+    right: 2px;
+    border-radius: 50%;
+    background-color: #cb5959;
+    z-index: 1;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+  }
+}
+@media (max-width: 990px) {
+  nav .products-sum {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 3px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: #cb5959;
+    z-index: 1;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+  }
+}
