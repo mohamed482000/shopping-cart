@@ -139,6 +139,9 @@
   .product-cart .product-button-icon {
     top: 248px;
   }
+  .shop-content .product-cart .product-sort {
+    margin-top: 8px;
+  }
 }
 /* spiner from css spinner */
 .loader {
