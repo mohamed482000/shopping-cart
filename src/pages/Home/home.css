@@ -54,8 +54,19 @@
 .second-home-section {
   margin-bottom: 100px;
 }
-.second-home-section-content .second-section-item {
+.second-home-section-content .second-section-item,
+.second-home-section-content .first-section-item,
+.second-home-section-content .third-section-item {
   position: relative;
+}
+.second-home-section-content a {
+  color: #000;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+.second-home-section-content .closes-img {
+  margin-left: 52%;
 }
 .second-home-section-content .closes-info {
   position: absolute;
@@ -63,25 +74,110 @@
   left: 39%;
   margin: auto;
 }
-.second-home-section-content .closes-img {
-  margin-left: 55%;
-}
 .second-home-section-content .glasses-img {
   margin-top: -60px;
 }
 .second-home-section-content .shoes-info {
-  position: absolute;
-  top: 35%;
-  left: 43%;
-  margin: auto;
+  margin-top: -60px;
 }
 .second-home-section-content .shoes-img {
-  margin-left: 55%;
+  margin-left: 50%;
   margin-top: -450px;
 }
-.second-home-section-content a {
-  color: #000;
-  letter-spacing: 3px;
-  text-decoration: none;
-  border-bottom: 2px solid #000;
+
+.second-home-section-content .shoes-info {
+  position: absolute;
+  top: 55%;
+  left: 43%;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+  .second-home-section-content .shoes-img img {
+    width: 400px;
+    margin-left: 10%;
+  }
+  .second-home-section-content .glasses-info {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .second-home-section-content .glasses-img {
+    margin-top: 60px;
+    display: inline-block;
+  }
+
+  .second-home-section-content .glasses-info {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .second-home-section-content .shoes-img {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 924px) {
+  .second-home-section-content .closes-img {
+    margin-left: 40%;
+  }
+  .second-home-section-content .closes-info {
+    margin-left: -20%;
+  }
+  .second-home-section-content .shoes-img {
+    margin-left: 270px;
+  }
+  .second-home-section-content .shoes-info {
+    margin-left: -130px;
+  }
+}
+@media (max-width: 768px) {
+  .second-home-section-content .closes-img {
+    margin-left: 20%;
+  }
+  .second-home-section-content .closes-info {
+    margin-left: -40%;
+  }
+  .second-home-section-content .glasses-img img {
+    width: 400px;
+    height: 300px;
+  }
+  .second-home-section-content .shoes-img {
+    margin-left: 90px;
+  }
+  .second-home-section-content .shoes-info {
+    margin-left: -200px;
+  }
+}
+@media (max-width: 601px) {
+  .second-home-section-content .first-section-item {
+    margin: auto;
+    width: 70%;
+  }
+  .second-home-section-content .closes-img {
+    width: 270px;
+    height: 300px;
+  }
+  .second-home-section-content .closes-img img {
+    width: 270px;
+    height: 300px;
+  }
+
+  .second-home-section-content .glasses-img img {
+    width: 300px;
+    height: 300px;
+  }
+  .second-home-section-content .third-section-item {
+    margin: auto;
+    width: 70%;
+  }
+  .second-home-section-content .shoes-img {
+    margin-left: 50px;
+    width: 270px;
+    height: 300px;
+  }
+  .second-home-section-content .shoes-info {
+    margin-left: -150px;
+  }
+  .second-home-section-content .shoes-img img {
+    width: 270px;
+    height: 300px;
+  }
 }

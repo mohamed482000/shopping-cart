@@ -8,7 +8,7 @@ function SecondHomeSec() {
   return (
     <section className="second-home-section container">
       <div className="second-home-section-content ">
-        <div className="second-section-item">
+        <div className="first-section-item">
           <div className="closes-info">
             <h3 className="text-capitalize">clothing</h3>
             <h3 className="text-capitalize">collections 2023</h3>
@@ -24,23 +24,24 @@ function SecondHomeSec() {
           <div className="glasses-img">
             <img src={glasessImg} alt="glasses image" />
           </div>
-          <div className="shoes-info">
-            <h3 className="text-capitalize">shoes spring</h3>
-            <h3 className="text-capitalize">2023</h3>
+          <div className="glasses-info">
+            <h3 className="text-capitalize"> accessorios</h3>
+
             <Link to="/shop" className="text-uppercase">
               shop now
             </Link>
           </div>
         </div>
         <div className="third-section-item">
-          <div className="glasses-info">
-            <h3 className="text-capitalize">accessorios</h3>
+          <div className="shoes-img">
+            <img src={shoesImg} alt="shoes image" />
+          </div>
+          <div className="shoes-info">
+            <h3 className="text-capitalize">shoes spring</h3>
+            <h3 className="text-capitalize">2023</h3>
             <Link to="/shop" className="text-uppercase">
               shop now
             </Link>
-          </div>
-          <div className="shoes-img">
-            <img src={shoesImg} alt="shoes image" />
           </div>
         </div>
       </div>
