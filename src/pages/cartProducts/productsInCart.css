@@ -196,6 +196,10 @@
   .cartDetails .product-buttons .product-button span {
     margin: 0;
   }
+  .cartDetails .product-buttons .product-button button:first-of-type {
+    margin-right: 20px;
+    margin-left: 0;
+  }
   .cartDetails .product-buttons .product-button button:last-of-type {
     margin-right: 0;
   }
