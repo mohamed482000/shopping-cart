@@ -212,4 +212,14 @@
     margin-left: 0px;
     margin-right: 10px;
   }
+  .back-background-img {
+    background-size: 600px 600px;
+    background-position: -70px -70px;
+  }
+  .payment {
+    min-width: 60%;
+    padding: 15px 20px;
+    margin: 60px;
+    height: 180px;
+  }
 }
