@@ -83,6 +83,30 @@
   .admin-page-content .admin-page-products h4 {
     font-size: 20px;
   }
+  .admin-page {
+    flex-direction: column;
+  }
+  .admin-page .admin-page-slide-button {
+    background-color: #304f50;
+    width: 100%;
+    height: 75px;
+  }
+  .admin-page .admin-page-slide-button ul {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+  }
+  .admin-page .admin-page-slide-button ul li {
+    justify-content: space-between;
+    width: 32vw;
+    text-align: center;
+    display: flex;
+  }
+  .admin-page .admin-page-slide-button ul a {
+    width: 30vw;
+    padding: 20px;
+    font-size: 22px;
+  }
 }
 /* users page */
 .users-page {
@@ -211,6 +235,7 @@
     top: 10%;
   }
 }
+
 /* dash board */
 .admin-page .product-img img,
 .products-page .product-img img {
