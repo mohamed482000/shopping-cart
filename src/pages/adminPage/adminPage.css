@@ -235,7 +235,11 @@
     top: 10%;
   }
 }
-
+@media (max-width: 520px) {
+  .products-page h4 {
+    top: 4%;
+  }
+}
 /* dash board */
 .admin-page .product-img img,
 .products-page .product-img img {
