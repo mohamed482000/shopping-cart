@@ -73,7 +73,7 @@ function Header({ updateLinks, setUpdateLinks }) {
     }
   };
   return (
-    <Navbar collapseOnSelect expand="lg" className="header">
+    <Navbar collapseOnSelect expand="lg" className="header ">
       <Container>
         <Navbar.Brand to="/" as={Link} className="mb-1">
           <img src={brandImg} alt="brand img" />
@@ -103,7 +103,9 @@ function Header({ updateLinks, setUpdateLinks }) {
           </Nav>
           <Nav className="shop-Icon">
             {localStorage.getItem("id") ? (
-              <span className="products-sum">{dataInCart.length}</span>
+              <span className="products-sum" onClick={goToProductsInCart}>
+                {dataInCart.length}
+              </span>
             ) : (
               ""
             )}

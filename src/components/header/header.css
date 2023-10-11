@@ -35,6 +35,9 @@ nav #collapsible-nav-dropdown img {
 .drop .dropdown-menu {
   min-width: 80px;
 }
+.shop-Icon span {
+  cursor: pointer;
+}
 
 @media (min-width: 990px) {
   .navbar-nav .active::after {
