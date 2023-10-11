@@ -182,10 +182,19 @@
   .cartDetails .product-info h4 {
     margin: 0 10px 0 30px;
   }
+  .cartDetails .product-buttons {
+    position: relative;
+  }
+  .cartDetails {
+    padding-right: 0px;
+  }
   .cartDetails .product-buttons .product-delete {
-    margin: 50px 0 0 20px;
+    position: absolute;
+    top: 60px;
+    right: -10px;
   }
   .cartDetails .product-buttons > h4 {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
